@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../Modules/Articles/Comments/CommentsPage.ts"],
+  "sourcesContent": ["\uFEFFimport { initFullHeightGridPage } from '@serenity-is/corelib/q';\r\nimport { CommentsGrid } from './CommentsGrid';\r\n\r\nexport default function pageInit() {\n    initFullHeightGridPage(new CommentsGrid($('#GridDiv')).element);\n}"],
+  "mappings": "4HAAC,IAAAA,EAAuC,SAGzB,SAARC,GAA4B,IAC/B,0BAAuB,IAAIC,EAAa,EAAE,UAAU,CAAC,EAAE,OAAO,CAClE,CAFwBC,EAAAF,EAAA",
+  "names": ["import_q", "pageInit", "CommentsGrid", "__name"]
+}

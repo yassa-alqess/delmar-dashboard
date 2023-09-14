@@ -1,0 +1,15 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Serenity.Web;
+
+namespace Dashboard.Articles.Pages;
+
+[PageAuthorize(typeof(CommentsRow))]
+public class CommentsPage : Controller
+{
+    [Route("Articles/Comments")]
+    public ActionResult Index()
+    {
+        return this.GridPage("@/Articles/Comments/CommentsPage",
+            CommentsRow.Fields.PageTitle());
+    }
+}

@@ -71,14 +71,14 @@ public sealed class ArticleRow : Row<ArticleRow.RowFields>, IIdRow, INameRow
         set => fields.AutherId[this] = value;
     }
 
-    [DisplayName("Created At"), QuickSearch(SearchType.Equals)]
+    [DisplayName("Created At") ]
     public DateTime? CreatedAt
     {
         get => fields.CreatedAt[this];
         set => fields.CreatedAt[this] = value;
     }
 
-    [DisplayName("Updated At"), QuickSearch(SearchType.Equals)]
+    [DisplayName("Updated At")]
     public DateTime? UpdatedAt
     {
         get => fields.UpdatedAt[this];

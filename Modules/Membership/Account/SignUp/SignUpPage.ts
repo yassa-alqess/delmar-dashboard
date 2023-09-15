@@ -1,4 +1,4 @@
-﻿import { SignUpForm, SignUpRequest } from "@/ServerTypes/Membership";
+import { SignUpForm, SignUpRequest } from "@/ServerTypes/Membership";
 import { Texts } from "@/ServerTypes/Texts";
 import { PropertyPanel } from "@serenity-is/corelib";
 import { information, resolveUrl, serviceCall, localText, htmlEncode } from "@serenity-is/corelib/q";

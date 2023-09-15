@@ -26,8 +26,8 @@ export class ArticleGrid extends EntityGrid<ArticleRow, any> {
             { name: "", title: "all" },
             { name: fld.Title, title: txt(fld.Title)  },
             { name: fld.AutherUsername, title:txt(fld.AutherUsername)},
-            { name: fld.CreatedAt, title: txt(fld.CreatedAt) },
-            { name: fld.UpdatedAt, title: txt(fld.UpdatedAt) }
+           // { name: fld.CreatedAt, title: txt(fld.CreatedAt) }, got a problem of casting
+           // { name: fld.UpdatedAt, title: txt(fld.UpdatedAt) }
         ];
     }
 
